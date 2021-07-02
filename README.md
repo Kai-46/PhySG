@@ -13,7 +13,7 @@ conda activate PhySG
 * Optimize for geometry and material given a set of posed images and object segmentation masks
 ```bash
 cd code
-~~python training/exp_runner.py --conf confs_sg/default.conf \
+python training/exp_runner.py --conf confs_sg/default.conf \
                               --data_split_dir ../example_data/kitty/train \
                               --expname kitty \
                               --nepoch 2000 --max_niter 200001 \

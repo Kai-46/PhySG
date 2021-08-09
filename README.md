@@ -49,6 +49,7 @@ Tips: for viewing exr images, you can use [tev hdr viewer](https://github.com/To
 
 ## Prepare your own data
 * Organize the images and masks in the same way as the provided data. 
+* Make sure object of interest is inside the unit sphere by properly normalizing your camera parameters.
 * As to camera parameters, we follow the same convention as [NeRF++](https://github.com/Kai-46/nerfplusplus) to use OpenCV conventions.
 
 Acknowledgements: this codebase borrows a lot from the [awesome IDR work](https://github.com/lioryariv/idr); we thank the authors for releasing their code.

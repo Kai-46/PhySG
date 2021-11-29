@@ -257,7 +257,7 @@ class RayTracing(nn.Module):
         work_mask = (sdf_low > 0) & (sdf_high < 0) & (z_high > z_low)
         z_mid = (z_low + z_high) / 2.
         i = 0
-        while work_mask.any() & i < self.n_rootfind_steps:
+        while work_mask.any() and i < self.n_rootfind_steps:
             p_mid = cam_loc + z_mid.unsqueeze(-1) * ray_directions
             sdf_mid = sdf(p_mid)
             ind_low = sdf_mid > 0

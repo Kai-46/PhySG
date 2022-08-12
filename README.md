@@ -8,7 +8,7 @@ conda env create -f environment.yml
 conda activate PhySG
 ```
 
-* Download example data from [google drive](https://drive.google.com/file/d/1QfRdsC9sUPf6meuspf-oNs8gaQOJDmBQ/view?usp=sharing).
+* Download example data from [google drive](https://drive.google.com/drive/folders/16LJfHzR9DPVPSgCeF0_eEp5z22DHgOow?usp=sharing).
 
 * Optimize for geometry and material given a set of posed images and object segmentation masks
 ```bash
